@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: medicine
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/java_senepharma_categories
+    username: root
+    password: dieme
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
