@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pharmacy" />
+        <module name="notification" />
         <module name="medicine" />
         <module name="category" />
         <module name="stock" />

@@ -5,33 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76796a2d-e0f8-47e8-80be-d683507222f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/category/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/opentech/eureka/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medicine/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pharmacy/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/CategoryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/CategoryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/MedicineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/MedicineApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/controller/MedicineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/controller/MedicineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/FormePharmaceutique.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/FormePharmaceutique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/Medicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/Medicine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/service/MedicineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/service/MedicineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharmacy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharmacy/src/main/java/com/opentech/pharmacy/PharmacyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy/src/main/java/com/opentech/pharmacy/PharmacyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharmacy/src/main/java/com/opentech/pharmacy/application/controller/PharmacyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy/src/main/java/com/opentech/pharmacy/application/controller/PharmacyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharmacy/src/main/java/com/opentech/pharmacy/application/model/Pharmacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy/src/main/java/com/opentech/pharmacy/application/model/Pharmacy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharmacy/src/main/java/com/opentech/pharmacy/application/service/PharmacyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy/src/main/java/com/opentech/pharmacy/application/service/PharmacyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stock/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/opentech/StockApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/opentech/StockApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -73,6 +61,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/Marshall/IdeaProjects/senepharma/stock/src/main/resources",
@@ -80,6 +69,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,7 +87,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.NotificationApplication">
     <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="category" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.opentech.category.CategoryApplication" />
@@ -111,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.opentech.eureka.EurekaServerApplication" />
+    <configuration name="MedicineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="medicine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.opentech.medicine.MedicineApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.opentech.eureka.*" />
+          <option name="PATTERN" value="com.opentech.medicine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="medicine" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.opentech.medicine.MedicineApplication" />
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.opentech.notification.NotificationApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.opentech.medicine.*" />
+          <option name="PATTERN" value="com.opentech.notification.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.StockApplication" />
         <item itemvalue="Spring Boot.MedicineApplication" />
         <item itemvalue="Spring Boot.PharmacyApplication" />
         <item itemvalue="Spring Boot.CategoryApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697984122613</updated>
-      <workItem from="1697984124288" duration="6160000" />
+      <workItem from="1697984124288" duration="14043000" />
     </task>
     <servers />
   </component>
