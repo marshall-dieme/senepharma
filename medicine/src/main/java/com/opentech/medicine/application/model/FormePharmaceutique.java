@@ -1,11 +1,8 @@
 package com.opentech.medicine.application.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import javax.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @AllArgsConstructor
@@ -15,7 +12,8 @@ import org.hibernate.annotations.UuidGenerator;
 @Builder
 public class FormePharmaceutique {
     @Id
-    @UuidGenerator
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     private String id;
 
     @Column(unique = true)

@@ -2,8 +2,8 @@ package com.opentech.pharmacy.application.service;
 
 import com.opentech.pharmacy.application.model.Pharmacy;
 import com.opentech.pharmacy.application.repository.PharmacyRepository;
-import jakarta.persistence.EntityNotFoundException;
-import jakarta.transaction.Transactional;
+import javax.persistence.EntityNotFoundException;
+import javax.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

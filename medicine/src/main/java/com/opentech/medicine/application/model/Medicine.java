@@ -1,9 +1,9 @@
 package com.opentech.medicine.application.model;
 
-import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
+import org.hibernate.annotations.GenericGenerator;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
@@ -17,7 +17,8 @@ import java.time.LocalDate;
 public class Medicine {
 
     @Id
-    @UuidGenerator
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     private String id;
 
     @Column(unique = true)

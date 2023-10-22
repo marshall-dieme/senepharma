@@ -1,11 +1,12 @@
 package com.opentech.pharmacy.application.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
+import org.hibernate.annotations.GenericGenerator;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.time.LocalDate;
 
 @Entity
@@ -19,7 +20,8 @@ import java.time.LocalDate;
 public class Pharmacy {
     @EqualsAndHashCode.Include
     @Id
-    @UuidGenerator
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     private String uuid;
 
     private String nom;

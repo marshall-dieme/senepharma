@@ -2,7 +2,7 @@ package com.opentech.medicine.application.service;
 
 import com.opentech.medicine.application.model.Medicine;
 import com.opentech.medicine.application.repository.MedicineRepository;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

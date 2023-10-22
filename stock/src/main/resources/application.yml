@@ -1,0 +1,30 @@
+server:
+  port: 8400
+
+spring:
+  application:
+    name: stock
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/java_senepharma_stock
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: dieme
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: localhost:${server.port}

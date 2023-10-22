@@ -44,7 +44,7 @@ public record MedicineController(MedicineService medicineService, FormPhService 
         return new ResponseEntity<>(medicines, HttpStatus.OK);
     }
 
-    @GetMapping
+    @GetMapping("{id}")
     public ResponseEntity<Optional<Medicine>> getById(@PathVariable String id) {
         log.info("Entrée de la methode 'getById' de la classe {}", className);
         log.info("Récuperation des informations concernant {}", id);

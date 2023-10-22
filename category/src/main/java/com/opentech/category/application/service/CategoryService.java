@@ -2,10 +2,10 @@ package com.opentech.category.application.service;
 
 import com.opentech.category.application.model.Category;
 import com.opentech.category.application.repository.CategoryRepository;
-import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -83,7 +83,7 @@ public class CategoryService {
             category.setDateCreation(LocalDate.now());
             category.setDateModification(LocalDate.now());
             category = categoryRepository.save(category);
-            if (category.getId().isEmpty()) {
+            if (category.getId().toString().isEmpty()) {
                 log.info("Impossible de traiter la demande");
                 throw new Exception();
             }

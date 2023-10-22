@@ -1,9 +1,11 @@
 package com.opentech.application.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 @Getter
@@ -13,7 +15,8 @@ import org.hibernate.annotations.UuidGenerator;
 @Builder
 public class Stock {
     @Id
-    @UuidGenerator
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     private String id;
 
     private String pharmacyId;

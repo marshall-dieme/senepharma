@@ -2,7 +2,7 @@ package com.opentech.application.service;
 
 import com.opentech.application.model.Stock;
 import com.opentech.application.repository.StockRepository;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
