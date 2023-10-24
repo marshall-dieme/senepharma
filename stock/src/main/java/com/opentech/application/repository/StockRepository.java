@@ -10,9 +10,9 @@ import java.util.Optional;
 @Repository
 public interface StockRepository extends JpaRepository<Stock, String> {
 
-    Optional<Stock> findByPharmacyId(String pharmacyId);
+    List<Stock> findByPharmacyId(String pharmacyId);
 
-    List<Stock> findByMedicineId(String medicineId);
+    Optional<Stock> findByMedicineId(String medicineId, String id);
 
     Optional<Stock> findByMedicineIdAndPharmacyId(String medicineId, String pharmacyId);
 }

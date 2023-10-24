@@ -22,13 +22,13 @@ public class StockService {
         this.repository = repository;
     }
 
-    public Optional<Stock> getStockByPharmacy(String pharmacyId) {
+    public List<Stock> getStockByPharmacy(String pharmacyId) {
         log.info("Entrée dans la methode 'getStockByPharmacy' du service {}", className);
-        Optional<Stock> stock = Optional.empty();
+        List<Stock> stocks = new ArrayList<>();
 
         try {
-            stock = repository.findByPharmacyId(pharmacyId);
-            if (stock.isEmpty()) {
+            stocks = repository.findByPharmacyId(pharmacyId);
+            if (stocks.isEmpty()) {
                 log.info("Aucune donnée récuperer pour la valeur {}", pharmacyId);
             }
         } catch (Exception e) {
@@ -37,18 +37,18 @@ public class StockService {
 
         log.info("Sortie de la methode 'getStockByPharmacy' du service {}", className);
 
-        return stock;
+        return stocks;
     }
 
-    public List<Stock> getByMedicine(String medicineId) {
+    public Optional<Stock> getByMedicine(String medicineId, String pharmacyId) {
         log.info("Entrée dans la methode 'getByMedicine' du service {}", className);
 
-        List<Stock> stocks = new ArrayList<>();
+        Optional<Stock> stock = Optional.empty();
 
         try {
-            stocks = repository.findByMedicineId(medicineId);
+            stock = repository.findByMedicineIdAndPharmacyId(medicineId, pharmacyId);
 
-            if (stocks.isEmpty()) {
+            if (stock.isEmpty()) {
                 log.info("Aucune donnée trouvé pour la valeur {}", medicineId);
             }
         } catch (Exception e) {
@@ -57,7 +57,7 @@ public class StockService {
 
         log.info("Sortie de la methode 'getByMedicine' du service {}", className);
 
-        return stocks;
+        return stock;
     }
 
     public Stock create(Stock stock) {
