@@ -10,7 +10,7 @@
   <packaging>pom</packaging>
 
   <name>senepharma</name>
-  <url>http://www.example.com</url>
+<!--  <url>http://www.example.com</url>-->
   <modules>
     <module>pharmacy</module>
     <module>medicine</module>
@@ -18,6 +18,7 @@
     <module>stock</module>
     <module>eureka-server</module>
       <module>notification</module>
+    <module>api-gateway</module>
   </modules>
 
   <properties>

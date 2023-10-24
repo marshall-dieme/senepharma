@@ -51,4 +51,34 @@ public class NotificationController {
 
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
+
+    @PutMapping("/{userId}")
+    public ResponseEntity<Void> readNotifications(@PathVariable String userId) {
+        log.info("Entrée dans la methode 'readNotifications' du controller 'NotificationController'");
+
+        try {
+            service.readNotification(userId);
+        } catch (Exception e) {
+            log.error("Une erreur s'est produite lors du traitement de la demande");
+        }
+
+        log.info("Sortie de la methode 'readNotifications' du controller 'NotificationController'");
+
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteNotification( @PathVariable String id) {
+        log.info("Entrée dans la methode 'readNotifications' du controller 'NotificationController'");
+
+        try {
+            service.deleteNotif(id);
+        } catch (Exception e) {
+            log.error("Une erreur s'est produite lors du traitement de la demande");
+        }
+
+        log.info("Sortie de la methode 'readNotifications' du controller 'NotificationController'");
+
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }

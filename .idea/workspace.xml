@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76796a2d-e0f8-47e8-80be-d683507222f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/controller/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/model/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/model/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/repository/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/service/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/opentech/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/category/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/opentech/notification/application/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pharmacy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pharmacy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +80,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "ae328cea7d948634f362999c450fa138",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,13 +98,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NotificationApplication">
-    <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="category" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.opentech.category.CategoryApplication" />
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.opentech.apigateway.ApiGatewayApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.opentech.category.*" />
+          <option name="PATTERN" value="com.opentech.apigateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NotificationApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.StockApplication" />
-        <item itemvalue="Spring Boot.MedicineApplication" />
         <item itemvalue="Spring Boot.PharmacyApplication" />
-        <item itemvalue="Spring Boot.CategoryApplication" />
+        <item itemvalue="Spring Boot.MedicineApplication" />
+        <item itemvalue="Spring Boot.NotificationApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +182,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697984122613</updated>
-      <workItem from="1697984124288" duration="14043000" />
+      <workItem from="1697984124288" duration="16394000" />
+      <workItem from="1698150126684" duration="4816000" />
     </task>
     <servers />
   </component>

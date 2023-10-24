@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,6 +42,8 @@ public class NotificationService {
         log.info("Entrée dans la methode 'createNotification' du service 'NotificationService'");
         Notification notification1 = null;
         try {
+            notification.setDate(LocalDate.now());
+            notification.setStatus(Status.UNREAD);
             notification1 = repository.save(notification);
 
             if (notification1.getId() == null) {
@@ -55,4 +58,43 @@ public class NotificationService {
     }
 
 
+    public void readNotification(String userId) {
+        log.info("Entrée dans la methode 'readStatus' du service 'NotificationService'");
+        List<Notification> notifications = new ArrayList<>();
+
+        try {
+            notifications = repository.findByUserIdAndStatusIsNotOrderByDateDesc(userId, Status.DELETED);
+            if (notifications.isEmpty())
+                log.info("Aucune donnée enregistré");
+
+            for (Notification notif :
+                    notifications) {
+                notif.setStatus(Status.READ);
+            }
+
+            repository.saveAll(notifications);
+
+        } catch (Exception e) {
+            log.error("Une erreur s'est produite lors du traitement de la demande");
+        }
+
+        log.info("Sortie la methode 'readStatus' du service 'NotificationService'");
+    }
+
+    public void deleteNotif(String id) {
+        log.info("Entrée dans la methode 'deleteNotif' du service 'NotificationService'");
+
+        try {
+            Notification notification = repository.findById(id).orElse(null);
+            if (notification != null) {
+                notification.setStatus(Status.DELETED);
+                repository.save(notification);
+            }
+        } catch (Exception e) {
+            log.error("Une erreur s'est produite lors du traitement de la demande");
+        }
+
+        log.info("Sortie la methode 'deleteNotif' du service 'NotificationService'");
+
+    }
 }
