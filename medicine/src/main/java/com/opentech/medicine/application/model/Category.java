@@ -1,4 +1,4 @@
-package com.opentech.category.application.model;
+package com.opentech.medicine.application.model;
 
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
@@ -30,7 +30,7 @@ public class Category {
     @Column(columnDefinition = "text")
     private String description;
 
-    private LocalDate dateCreation;
+    private LocalDate createdAt;
 
-    private LocalDate dateModification;
+    private LocalDate updatedAt;
 }

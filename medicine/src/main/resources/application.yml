@@ -6,7 +6,7 @@ spring:
     name: medicine
 
   datasource:
-    url: jdbc:mysql://localhost:3306/java_senepharma_medicines
+    url: jdbc:mysql://localhost:3306/java_pharma-express_medicines
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: dieme

@@ -48,7 +48,7 @@ public record MedicineController(MedicineService medicineService, FormPhService 
     public ResponseEntity<Optional<Medicine>> getById(@PathVariable String id) {
         log.info("Entrée de la methode 'getById' de la classe {}", className);
         log.info("Récuperation des informations concernant {}", id);
-        Optional<Medicine> medicine = null;
+        Optional<Medicine> medicine = Optional.empty();
         try {
             medicine = medicineService.getById(id);
             if (medicine.isEmpty()) {

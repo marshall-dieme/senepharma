@@ -50,8 +50,6 @@ public class Medicine {
 
     private String nomeroLot;
 
-    private Double prix;
-
     @Column(columnDefinition = "text")
     private String prescription;
 

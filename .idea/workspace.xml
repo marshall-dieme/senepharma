@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76796a2d-e0f8-47e8-80be-d683507222f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/opentech/apigateway/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/opentech/users/UsersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/opentech/users/application/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/opentech/users/application/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/opentech/users/application/model/Utilisateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/opentech/users/application/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/opentech/users/application/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/CategoryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/Medicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/Medicine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/service/MedicineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/service/MedicineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/opentech/application/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/opentech/application/controller/StockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/opentech/application/repository/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/opentech/application/repository/StockRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/opentech/application/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/opentech/application/service/StockService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,29 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Marshall/IdeaProjects/senepharma/stock/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "ae328cea7d948634f362999c450fa138",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marshall/IdeaProjects/senepharma/stock/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;31b1a6806aa62bba63149dba21ff0db2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Marshall\IdeaProjects\senepharma\stock\src\main\resources" />
@@ -179,6 +177,10 @@
       <updated>1697984122613</updated>
       <workItem from="1697984124288" duration="16394000" />
       <workItem from="1698150126684" duration="17560000" />
+      <workItem from="1700404306010" duration="35000" />
+      <workItem from="1715347442507" duration="118000" />
+      <workItem from="1715347573878" duration="640000" />
+      <workItem from="1716212690429" duration="1497000" />
     </task>
     <servers />
   </component>

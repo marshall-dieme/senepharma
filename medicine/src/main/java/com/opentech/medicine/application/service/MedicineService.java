@@ -44,7 +44,7 @@ public class MedicineService {
 
     public Optional<Medicine> getById(String id) {
         log.info("Entrée dans la methode 'getById' de la classe {} pour le medicament : {}", className, id);
-        Optional<Medicine> medicine = null;
+        Optional<Medicine> medicine = Optional.empty();
         try {
             medicine = repository.findById(id);
 

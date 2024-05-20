@@ -1,7 +1,7 @@
-package com.opentech.category.application.service;
+package com.opentech.medicine.application.service;
 
-import com.opentech.category.application.model.Category;
-import com.opentech.category.application.repository.CategoryRepository;
+import com.opentech.medicine.application.model.Category;
+import com.opentech.medicine.application.repository.CategoryRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -80,10 +80,9 @@ public class CategoryService {
         log.info("Entrée dans la methode 'create' de la classe {}", className);
         log.info("{}", category);
         try {
-            category.setDateCreation(LocalDate.now());
-            category.setDateModification(LocalDate.now());
+            category.setCreatedAt(LocalDate.now());
             category = categoryRepository.save(category);
-            if (category.getId().toString().isEmpty()) {
+            if (category.getId().isEmpty()) {
                 log.info("Impossible de traiter la demande");
                 throw new Exception();
             }
@@ -99,7 +98,7 @@ public class CategoryService {
         try {
             Category category1 = findOneById(id);
             if (category1 != null) {
-                category.setDateModification(LocalDate.now());
+                category.setUpdatedAt(LocalDate.now());
                 category.setId(category1.getId());
                 category = categoryRepository.save(category);
             } else {

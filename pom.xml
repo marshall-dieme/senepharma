@@ -14,7 +14,6 @@
   <modules>
     <module>pharmacy</module>
     <module>medicine</module>
-    <module>category</module>
     <module>stock</module>
     <module>eureka-server</module>
       <module>notification</module>

@@ -11,11 +11,13 @@
         <module name="pharmacy" />
         <module name="api-gateway" />
         <module name="medicine" />
-        <module name="category" />
         <module name="stock" />
         <module name="eureka-server" />
         <module name="users" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="category" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

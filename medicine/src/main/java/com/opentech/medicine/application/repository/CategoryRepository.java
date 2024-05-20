@@ -1,6 +1,6 @@
-package com.opentech.category.application.repository;
+package com.opentech.medicine.application.repository;
 
-import com.opentech.category.application.model.Category;
+import com.opentech.medicine.application.model.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

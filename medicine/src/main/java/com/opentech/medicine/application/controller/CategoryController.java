@@ -1,7 +1,7 @@
-package com.opentech.category.application.controller;
+package com.opentech.medicine.application.controller;
 
-import com.opentech.category.application.model.Category;
-import com.opentech.category.application.service.CategoryService;
+import com.opentech.medicine.application.model.Category;
+import com.opentech.medicine.application.service.CategoryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
