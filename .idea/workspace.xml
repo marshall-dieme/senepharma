@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76796a2d-e0f8-47e8-80be-d683507222f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/CategoryApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/java/com/opentech/category/application/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/Medicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/model/Medicine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/service/MedicineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/opentech/medicine/application/service/MedicineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="76796a2d-e0f8-47e8-80be-d683507222f7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +163,7 @@
       <workItem from="1700404306010" duration="35000" />
       <workItem from="1715347442507" duration="118000" />
       <workItem from="1715347573878" duration="640000" />
-      <workItem from="1716212690429" duration="1497000" />
+      <workItem from="1716212690429" duration="2002000" />
     </task>
     <servers />
   </component>
