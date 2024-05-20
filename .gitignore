@@ -1,4 +1,4 @@
-/.idea
+.idea/
 
-/application.yml
-/application.properties
+.yml
+.properties
